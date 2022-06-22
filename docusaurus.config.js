@@ -57,10 +57,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '俊樹の筆記',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: '俊樹の筆記 Logo',
+          src: 'img/avatar.svg',
         },
         items: [
           {
@@ -69,6 +69,11 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          // {
+          //   position: 'left',
+          //   label: 'application',
+          //   to: 'docs/app',
+          // },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
