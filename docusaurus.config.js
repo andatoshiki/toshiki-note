@@ -126,6 +126,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      // sidebar config https://docusaurus.io/docs/sidebar#sidebarCollapsed
+      docs: {
+        sidebar: {
+          hideable: true, // hideable sidebar config
+          autoCollapseCategories: false, // disable automatically expanded sidebar subcategory contents
+        },
+      },
     }),
 };
 
